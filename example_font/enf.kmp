@@ -8,16 +8,6 @@
 #
 # NOTE: dont make #(hashtag) symbol in the first cell of any row in
 # your texture, because this file would dismiss that row as a comment.
-#
-# Example file [texture_name].kmp
-#4, 4
-# !?:.,
-#01234567
-#89#
-#abcdefgh
-#ijklmnop
-#qrstuvwx
-#yz
 
 #texture size in pixels use csv
 4, 4
