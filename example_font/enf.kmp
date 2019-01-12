@@ -1,0 +1,32 @@
+# lines beginning with # are regardeds as comments and will be ignored.
+# empty lines are ignored also.
+#
+# first non comment or non empty line is for texture size x and y accordingly.
+# then type the symbols as they appear in your texture.
+# do line break for next row, ignore empty cells (if any) in your texture.
+# save this file as [texture_name].kmp in same folder as your texture.
+#
+# NOTE: dont make #(hashtag) symbol in the first cell of any row in
+# your texture, because this file would dismiss that row as a comment.
+#
+# Example file [texture_name].kmp
+#4, 4
+# !?:.,
+#01234567
+#89#
+#abcdefgh
+#ijklmnop
+#qrstuvwx
+#yz
+
+#texture size in pixels use csv
+4, 4
+
+ !?:.,
+01234567
+89
+abcdefgh
+ijklmnop
+qrstuvwx
+yz
+
