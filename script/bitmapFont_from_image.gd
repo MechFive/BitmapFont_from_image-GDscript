@@ -1,28 +1,28 @@
 
 #####################################################################################
-# MIT License																		#
+# MIT License
+#
+# Copyright (c) 2019 MechFive
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
 #																					#
-# Copyright (c) 2019 MechFive														#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
 #																					#
-# Permission is hereby granted, free of charge, to any person obtaining a copy		#
-# of this software and associated documentation files (the "Software"), to deal		#
-# in the Software without restriction, including without limitation the rights		#
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell			#
-# copies of the Software, and to permit persons to whom the Software is				#
-# furnished to do so, subject to the following conditions:							#
-#																					#
-# The above copyright notice and this permission notice shall be included in all	#
-# copies or substantial portions of the Software.									#
-#																					#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR		#
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,			#
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE		#
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER			#
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,		#
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE		#
-# SOFTWARE.																			#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 #####################################################################################
-# 
+#
 # script for creating monospaced bitmap fonts from texture.
 # tested in Godot 3.0.6 and 3.0.5
 #
@@ -43,28 +43,28 @@
 # is not recommeded to run it unless you need to create or modify that resource.
 #
 ######################### [texture_name].kmp ########################################
-#																					#
-# lines beginning with # are regardeds as comments and will be ignored.				#
-# empty lines are ignored also.														#
-# 																					#
-# first non comment or non empty line is for texture size x and y accordingly.		#
-# then type the symbols as they appear in your texture.								#
-# do line break for next row, ignore empty cells (if any) in your texture.			#
-# save this file as [texture_name].kmp in same folder as your texture.				#
-#																					#
-# NOTE: dont make #(hashtag) symbol in the first cell of any row in					#
-# your texture, because this file would dismiss that row as a comment.				#
-#																					#
-# Example file [texture_name].kmp													#
-#4, 4																				#
-# !?:.,																				#
-#01234567																			#
-#89																					#
-#abcdefgh																			#
-#ijklmnop																			#
-#qrstuvwx																			#
-#yz																					#
-#																					#
+#
+# lines beginning with # are regardeds as comments and will be ignored.
+# empty lines are ignored also.
+#
+# first non comment or non empty line is for texture size x and y accordingly.
+# then type the symbols as they appear in your texture.
+# do line break for next row, ignore empty cells (if any) in your texture.
+# save this file as [texture_name].kmp in same folder as your texture.
+#
+# NOTE: dont make #(hashtag) symbol in the first cell of any row in
+# your texture, because this file would dismiss that row as a comment.
+#
+# Example file [texture_name].kmp
+#4, 4
+# !?:.,
+#01234567
+#89
+#abcdefgh
+#ijklmnop
+#qrstuvwx
+#yz
+#
 #####################################################################################
 
 
