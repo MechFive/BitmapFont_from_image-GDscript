@@ -10,10 +10,10 @@
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-#																					#
+#
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-#																					#
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #####################################################################################
-#
+# 
 # script for creating monospaced bitmap fonts from texture.
 # tested in Godot 3.0.6 and 3.0.5
 #
@@ -52,7 +52,7 @@
 # do line break for next row, ignore empty cells (if any) in your texture.
 # save this file as [texture_name].kmp in same folder as your texture.
 #
-# NOTE: dont make #(hashtag) symbol in the first cell of any row in
+# NOTIFICATION: dont make #(hashtag) symbol in the first cell of any row in
 # your texture, because this file would dismiss that row as a comment.
 #
 # Example file [texture_name].kmp
@@ -74,8 +74,7 @@ export (Texture) var font_texture
 var font = BitmapFont.new()
 var char_size = Vector2()
 var lines = []
-var font_path = "res://res/font_image/"
-var key_map = File.new()
+var font_path
 var key_map_file_extension = ".kmp"
 
 func _ready():
@@ -91,6 +90,7 @@ func _ready():
 		print("please assign font texture.")
 
 func get_keymap():
+	var key_map = File.new()
 	if key_map.open(str(font_path + key_map_file_extension), key_map.READ) == 0:
 		while not key_map.eof_reached():
 			var line = key_map.get_line()
