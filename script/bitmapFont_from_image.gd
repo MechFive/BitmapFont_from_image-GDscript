@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #####################################################################################
-# 
+#
 # script for creating monospaced bitmap fonts from texture.
 # tested in Godot 3.0.6 and 3.0.5
 #
